@@ -1,0 +1,32 @@
+{
+  "name": "react-stream-builder",
+  "version": "0.1.0",
+  "description": "A React Component that builds itself based on the latest snapshot emitted by an Observable.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonhorlick/react-stream-builder.git"
+  },
+  "keywords": [
+    "react",
+    "rxjs"
+  ],
+  "author": "Simon Horlick",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simonhorlick/react-stream-builder/issues"
+  },
+  "homepage": "https://github.com/simonhorlick/react-stream-builder#readme",
+  "dependencies": {
+    "react": "^16.3.1",
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "typescript": "^3.0.3"
+  }
+}
