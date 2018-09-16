@@ -46,15 +46,13 @@ class StreamBuilder extends React.Component {
         this.subscription = rxjs_1.Subscription.EMPTY;
     }
     componentDidMount() {
-        console.log("StreamBuilder: mounting");
         this.subscription = this.props.stream.subscribe(snapshot => this.setState({
             snapshot: { data: snapshot, state: ConnectionState.active },
-        }), error => console.error(error), () => this.setState({
+        }), error => { }, () => this.setState({
             snapshot: { data: undefined, state: ConnectionState.done },
         }));
     }
     componentWillUnmount() {
-        console.log("StreamBuilder: unmounting");
         this.subscription.unsubscribe();
     }
     render() {
