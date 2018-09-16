@@ -1,6 +1,6 @@
 {
   "name": "react-stream-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Component that builds itself based on the latest snapshot emitted by an Observable.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
